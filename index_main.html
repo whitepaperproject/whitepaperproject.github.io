@@ -32,7 +32,7 @@
 				color: #1e1e1e;
 			}
 		}
-
+	
 
 		/* Custom Sidebar Text Color */
 		.site-title a,
@@ -144,7 +144,7 @@
 				outline-color: rgba( 170, 170, 170, 0.3);
 			}
 		}
-
+	
 </style><link rel="stylesheet" id="child-style-css" href="https://whitepaperproject.github.io/wp-content/themes/white-paper-project/style.css" type="text/css" media="all"><link rel="stylesheet" id="twentyfifteen-fonts-css" href="https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&subset=latin%2Clatin-ext" type="text/css" media="all"><link rel="stylesheet" id="genericons-css" href="https://c0.wp.com/p/jetpack/7.9.1/_inc/genericons/genericons/genericons.css" type="text/css" media="all"><link rel="stylesheet" id="twentyfifteen-block-style-css" href="https://whitepaperproject.github.io/wp-content/themes/twentyfifteen/css/blocks.css" type="text/css" media="all"><link rel="stylesheet" id="jetpack_css-css" href="https://c0.wp.com/p/jetpack/7.9.1/css/jetpack.css" type="text/css" media="all"><script type="text/javascript" src="https://c0.wp.com/c/5.3/wp-includes/js/jquery/jquery.js"></script><script type="text/javascript" src="https://c0.wp.com/c/5.3/wp-includes/js/jquery/jquery-migrate.min.js"></script><style>
 		.passster-form {
 			background: #1e1e1e;
@@ -174,7 +174,7 @@
 		.passster-form #passster_submit:hover {
 			color: #FFFFFF;
 			background: #0085b2;
-		}
+		}                
 		</style><style id="mystickymenu" type="text/css">#mysticky-nav { width:100%; position: static; }#mysticky-nav.wrapfixed { position:fixed; left: 0px; margin-top:0px;  z-index: 99990; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=98)"; filter: alpha(opacity=98); opacity:0.98; background-color: #000000;}#mysticky-nav .myfixed { margin:0 auto; float:none; border:0px; background:none; max-width:100%; }</style><script type="text/javascript">//<![CDATA[
   function external_links_in_new_windows_loop() {
     if (!document.links) {
@@ -187,20 +187,20 @@
     for (var t=0; t<document.links.length; t++) {
       var all_links = document.links[t];
       change_link = false;
-
+      
       if(document.links[t].hasAttribute('onClick') == false) {
         // forced if the address starts with http (or also https), but does not link to the current domain
         if(all_links.href.search(/^http/) != -1 && all_links.href.search('wpp.carolleedesign.com') == -1 && all_links.href.search(/^#/) == -1) {
           // console.log('Changed ' + all_links.href);
           change_link = true;
         }
-
+          
         if(force != '' && all_links.href.search(force) != -1) {
           // forced
           // console.log('force ' + all_links.href);
           change_link = true;
         }
-
+        
         if(ignore != '' && all_links.href.search(ignore) != -1) {
           // console.log('ignore ' + all_links.href);
           // ignored
@@ -215,10 +215,10 @@
       }
     }
   }
-
+  
   // Load
   function external_links_in_new_windows_load(func)
-  {
+  {  
     var oldonload = window.onload;
     if (typeof window.onload != 'function'){
       window.onload = func;
@@ -261,7 +261,7 @@ background: #1e1e1e !important;
 
 
 
-.page-id-709 .custom-html-widget,
+.page-id-709 .custom-html-widget, 
 .page-id-1930 .custom-html-widget,
 .page-id-1883 .custom-html-widget {
 	color:#1e1e1e;
@@ -286,7 +286,7 @@ background: #1e1e1e !important;
 	width:80%;
 }
 
-#language {
+#language {    
 	margin: auto;
    width: 70%;
 }
@@ -331,8 +331,8 @@ background: #1e1e1e !important;
 	padding-bottom:20px;
 }
 
-.post-709 .entry-title, .post-842 .entry-title, .post-861 .entry-title, .page-id-1930 .entry-title, .page-id-1883 .entry-title  {
-display: none;
+.post-709 .entry-title, .post-842 .entry-title, .post-861 .entry-title, .page-id-1930 .entry-title, .page-id-1883 .entry-title  { 
+display: none; 
 }
 
 .post-842 .bottom-nav a, .post-861 .bottom-nav a, .post-1883 .bottom-nav a {
@@ -381,7 +381,7 @@ text-align:left!important;}
 .current_page_item a {
 color: #f6f6f6;
 text-transform:uppercase;
-font-weight: 700;
+font-weight: 700;	
 }
 
 #secondary.toggled-on a{
@@ -444,7 +444,7 @@ color: #5B5B5B;
 
 /* Turn off hyphenation */
 .entry-content p
-{
+{	
 -moz-hyphens: none;
 -ms-hyphens: none;
 -webkit-hyphens: none;
@@ -461,13 +461,13 @@ hyphens: none;
 .easy-footnote-single {
  font-size:small;
 	margin-bottom:15px;
-
+	
 }
 
 
 .easy-footnotes-wrapper a {
 	color:#6FACC2;
-
+	
 }
 
 sup {
@@ -500,69 +500,69 @@ color:#aaa;
 
 .heateorSssSharingArrow{display:none!important}
 
-.site-info {
-display: none;
+.site-info { 
+display: none; 
 }
 
-*[id]:before {
-display: block;
-content: " ";
-margin-top: -100px;
-height: 100px;
-visibility: hidden;
+*[id]:before { 
+display: block; 
+content: " "; 
+margin-top: -100px; 
+height: 100px; 
+visibility: hidden; 
 }
 
 
 body:before {
 	max-width: 313px;
 }
-
+ 
 #sidebar {
 	left: 0;
 }
-
+ 
 #page {
 	margin-left: 0;
 }
 
-
+ 
 @media screen and (min-width: 77.5em) {
 	.site-content {
 		margin-left: 23.2%;
 		width: 76.8%;
 	}
 }
-
+ 
 @media screen and (min-width: 59.6875em) {
 	.sidebar {
 		max-width: 313px;
 	}
-
+		
 	.site-footer {
 		background-color:#333!important;
 	}
-
+	
 	.hentry, .page-header, .page-content {
 		margin: 0 3.3333%;
 	}
-
+	
 	.comments-area, .post-navigation {
 		margin: 8.3333% 3.3333% 0;
 	}
-
+	
 	.entry-content, .entry-summary {
 		padding: 0 7% 7%;
 	}
-
+	
 	.hentry img {
 		width: 100%;
 	}
-
+	
 	.entry-header {
 		padding: 0 7%;
 		margin-top:-10%;
 	}
-
+	
 }
 
 .main-navigation ul .current-menu-item ul {
@@ -573,7 +573,7 @@ body:before {
 .wp-block-quote {
 	margin-left:30px;
 	font-size:medium;
-
+	
 }
 
 blockquote cite {
@@ -597,7 +597,7 @@ min-width:100%;}
 
 hr {background-color:rgba( 170, 170, 170, 0.7);}
 
-.nav-links .meta-nav  {
+.nav-links .meta-nav  {	
 	font-family:"Oswald";
 	font-size:small;
 	font-weight: 400;
@@ -608,14 +608,14 @@ hr {background-color:rgba( 170, 170, 170, 0.7);}
 }
 
 .nav-next {
-	padding:30px 0 50px 0;
+	padding:30px 0 50px 0;	
 }
 
-.nav-previous .post-title, .nav-next .post-title {
+.nav-previous .post-title, .nav-next .post-title {	
 	font-weight: 400;
 font-family:'Oswald', sans-serif;
 	text-transform:uppercase;
-
+	
 }
 
 
@@ -656,11 +656,11 @@ h6 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
 			</div>
 		</header><div id="secondary" class="secondary">
 
-
-
+		
+		
 					<div id="widget-area" class="widget-area" role="complementary">
 				<aside id="custom_html-5" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget">© 2019</div></aside></div>
-
+		
 	</div>
 
 	</div>
@@ -669,7 +669,7 @@ h6 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main"><article id="post-709" class="post-709 page type-page status-publish hentry"><header class="entry-header"><h1 class="entry-title">White Paper Project.</h1>	</header><div class="entry-content">
-
+		
 <h1>White Paper Project.</h1>
 
 
@@ -678,11 +678,24 @@ h6 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
 
 
 
-<p class="has-small-font-size disclaimer">We are down for maintenance.<br></p>
+<p class="has-small-font-size disclaimer">We do not represent the views or positions of Big Hit Entertainment, BTS, or ARMY as a whole.<br>
+우리는 빅히트 엔터테인먼트, 방탄소년단, 또는 ARMY 전체의 의견이나 입장을 대표하지 않습니다.</p>
 
 
 
+<p class="has-small-font-size disclaimer">All opinions and errors are our own.<br>
+모든 의견과 오류의 책임은 우리에게 있습니다.</p>
 
+
+
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div id="languages">
+<p>
+<a href="../en">English</a>  |  <a href="../ko">한국어</a>
+</p>
 </div>
 
 
@@ -690,7 +703,7 @@ h6 { font-family: 'Oswald'; font-style: normal; font-weight: 400; }
 <p></p>
 			</div>
 
-
+	
 </article></main></div>
 
 
