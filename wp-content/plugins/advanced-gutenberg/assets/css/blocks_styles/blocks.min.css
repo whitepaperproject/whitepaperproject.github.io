@@ -218,7 +218,7 @@ hr.wp-block-separator {background-color: transparent;}
 .advgb-post-wrapper>* {margin: 10px 0;}
 .advgb-post-readmore {margin-top: 10px;}
 .advgb-recent-post .advgb-post-date:not(:first-child):before {content: "-";display: inline-block;margin: 0 5px;}
-.advgb-recent-posts-loading, .advgb-ajax-loading:before {position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 9;background-color: rgba(240,240,240,.7);background-image: url("../../images/loading.gif");background-position: center;background-repeat: no-repeat;}
+.advgb-recent-posts-loading, .advgb-ajax-loading:before {position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 9;background-color: rgba(240,240,240,.7);background-image: url("./../../images/loading.gif");background-position: center;background-repeat: no-repeat;}
 .advgb-ajax-loading:before {content: "";display: block;background-color: rgba(0,0,0,.7);}
 .advgb-recent-posts-block.slider-view.loading .advgb-recent-posts {max-height: 500px;overflow: hidden;}
 .advgb-recent-posts-block.slider-view .advgb-recent-post {text-align: center;}
@@ -278,7 +278,7 @@ hr.wp-block-separator {background-color: transparent;}
 .advgb-form-submit-wrapper {clear: both;margin-left: 3%;text-align: center;position: relative;}
 button.advgb-form-submit {padding: 14px;background-color: #444;box-shadow: none;outline: 0;border: 2px solid #444;color: #fff;cursor: pointer;transition: all ease .5s;position: relative;border-radius: 0;font-size: 15px;}
 button.advgb-form-submit:hover:after {content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;background-color: #aaa;opacity: .2;pointer-events: none;}
-.advgb-form-sending {display: inline-block;position: absolute;width: 25px;height: 25px;margin: 12px 3px;background-image: url("../../images/loading.gif");background-repeat: no-repeat;background-position: center;background-size: contain;}
+.advgb-form-sending {display: inline-block;position: absolute;width: 25px;height: 25px;margin: 12px 3px;background-image: url("./../../images/loading.gif");background-repeat: no-repeat;background-position: center;background-size: contain;}
 .advgb-form-submit-success {text-align: center;padding: 10px;margin: 10px 0;margin-left: 3%;font-weight: bold;color: #fafafa;background-color: #444;font-size: 14px;border-radius: 2px;-webkit-box-shadow: 1px 1px 12px #ccc;-moz-box-shadow: 1px 1px 12px #ccc;box-shadow: 1px 1px 12px #ccc;}
 .advgb-newsletter {margin-left: auto;margin-right: auto;}
 .advgb-newsletter .advgb-form-submit-wrapper, .advgb-newsletter .advgb-form-field {margin-left: 0;padding-left: 0;}
